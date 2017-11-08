@@ -18,7 +18,7 @@ import MarkdownTextarea, {
   insert,
   classNames,
 } from './markdown-text-area_with_octicons';
-import './markdown-text-area.scss';
+//import './markdown-text-area.scss'; Does not work, but compiles without it
 
 const markdown = new MarkdownIt();
 

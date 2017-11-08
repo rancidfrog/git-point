@@ -9,6 +9,23 @@ import { MentionArea } from 'components';
 import { translate } from 'utils';
 import { colors, fonts, normalize } from 'config';
 
+import MarkdownIt from 'markdown-it';
+
+import MarkdownTextarea, {
+  actions,
+  help,
+  renderIcon,
+  insert,
+  classNames,
+} from './markdown-text-area_with_octicons';
+import './markdown-text-area.scss';
+
+const markdown = new MarkdownIt();
+
+const classNamesWithPreview = Object.assign({}, classNames, {
+  preview: 'MarkdownTextarea-preview markdown-body',
+});
+
 const Container = styled.View`
   border-top-color: ${colors.greyLight};
   border-top-width: 1;

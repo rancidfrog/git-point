@@ -4993,6 +4993,12 @@ object.values@^1.0.4:
     function-bind "^1.1.0"
     has "^1.0.1"
 
+octicons@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-7.0.1.tgz#2f8f8d71547213c50525b26684192d5e6be257fb"
+  dependencies:
+    object-assign "^4.1.1"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -5899,6 +5905,12 @@ react-test-renderer@^16.0.0:
   dependencies:
     fbjs "^0.8.16"
     object-assign "^4.1.1"
+
+react-textarea-autosize@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-5.2.0.tgz#a5dba76149b658c2c5dcd3a25e5a0a96b9fe668e"
+  dependencies:
+    prop-types "^15.6.0"
 
 react-timer-mixin@^0.13.2:
   version "0.13.3"

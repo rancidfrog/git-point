@@ -3018,6 +3018,10 @@ git-toplevel@^1.1.1:
     es6-promise "^3.0.2"
     jq-trim "^0.1.1"
 
+github-markdown-css@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-2.9.0.tgz#a54b2d97457d529f22255fb1ce78fc24dacc0a7b"
+
 github-url-from-git@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
@@ -5374,6 +5378,16 @@ pretty-format@^21.2.1:
 pretty-format@^4.2.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-4.3.1.tgz#530be5c42b3c05b36414a7a2a4337aa80acd0e8d"
+
+primer-support@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/primer-support/-/primer-support-4.4.1.tgz#c51e94a118b7e1b2083b79a1833223345e23a641"
+
+primer-tooltips@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/primer-tooltips/-/primer-tooltips-1.4.1.tgz#72fc5b68301ac8b7c555a45032ea20b69862b739"
+  dependencies:
+    primer-support "4.4.1"
 
 private@^0.1.6:
   version "0.1.7"
